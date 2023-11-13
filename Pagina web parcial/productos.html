@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Tienda</title>
+        <link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="cart.css" />
+	</head>
+	<body>
+		<header>
+            <div class="container-hero">
+				<div class="container hero">
+					<div class="container-logo">
+						<i class="fa-solid fa-mug-hot"></i>
+						<h1 class="logo"><a href="./Yumnara.html">YUMNARA</a></h1>
+					</div>
+
+					<div class="container-use">
+						<a href="Formulario/formulario.html" target="_blank">
+						<i class="fa-solid fa-user"></i>
+					</a>
+					<div class="container-icon">
+						<i class="fa-solid fa-basket-shopping"></i>
+						<div class="content-shopping-cart">
+                            <div class="count-products">
+                                <span id="contador-productos">0</span>
+                            </div>
+                        </div>
+                    </div>
+                
+
+                            <div class="container-cart-products hidden-cart">
+                                <div class="row-product hidden">
+                                    <div class="cart-product">
+                                        <div class="info-cart-product">
+                                            <span class="cantidad-producto-carrito">1</span>
+                                            <p class="titulo-producto-carrito">Zapatos Nike</p>
+                                            <span class="precio-producto-carrito">$80</span>
+                                        </div>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            fill="none"
+                                            viewBox="0 0 24 24"
+                                            stroke-width="1.5"
+                                            stroke="currentColor"
+                                            class="icon-close"
+                                        >
+                                            <path
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                                d="M6 18L18 6M6 6l12 12"
+                                            />
+                                        </svg>
+                                    </div>
+                                </div>
+            
+                                <div class="cart-total hidden">
+                                    <h3>Total:</h3>
+                                    <span class="total-pagar">$200</span>
+                                </div>
+                                <p class="cart-empty">El carrito está vacío</p>
+                            </div>
+					</div>
+				</div>
+
+			<div class="container-navbar">
+				<nav class="navbar container">
+					<i class="fa-solid fa-bars"></i>
+					<ul class="menu">
+						<li><a href="./Yumnara.html" >Inicio</a></li>
+						<li><a href="https://www.bonella.com.ec/recetas/dulces-y-reposteria" target="_blank">Reposteria</a></li>
+						<li><a href="./productos.html">Productos</a></li>
+						<li><a href="#">Decoración</a></li>
+						<li><a href="#">Productos Nuevos</a></li>
+					</ul>
+
+					<form class="search-form">
+						<input type="search" placeholder="Buscar..." />
+						<button class="btn-search">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
+					</form>
+				</nav>
+			</div>
+			
+        </header>
+			 
+
+            
+	
+      
+		<div class="container-items">
+			<div class="item">
+				<figure><img src="img/blog-1.jpg" alt="Cafe Irish" /></figure>
+				<div class="info-product">
+					<h2>Zapatos Nike</h2>
+					<p class="price">$80</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+
+			<div class="item">
+				<figure><img src="img/blog-1.jpg" alt="Cafe Irish" /></figure>
+				<div class="info-product">
+					<h2>Audifonos</h2>
+					<p class="price">$20</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+
+			<div class="item">
+				<figure><img src="img/blog-1.jpg" alt="Cafe Irish" /></figure>
+				<div class="info-product">
+					<h2>Reloj</h2>
+					<p class="price">$50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+
+			<div class="item">
+				<figure><img src="img/blog-1.jpg" alt="Cafe Irish" /></figure>
+				<div class="info-product">
+					<h2>Smartwatch</h2>
+					<p class="price">$90</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+
+			<div class="item">
+				<figure><img src="img/blog-1.jpg" alt="Cafe Irish" /></figure>
+				<div class="info-product">
+					<h2>Perfume</h2>
+					<p class="price">$50</p>
+					<button class="btn-add-cart">Añadir al carrito</button>
+				</div>
+			</div>
+
+
+		</div>
+
+		<script src="js/cart.js"></script>
+
+        <script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+
+	</body>
+</html>
